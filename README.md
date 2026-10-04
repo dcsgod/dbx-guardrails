@@ -1,5 +1,9 @@
 # dbx-guardrails
 
+**Databricks-native AI guardrails, PII protection, prompt safety and policy enforcement.**
+
+`dbx-guardrails` is an open-source **AI safety and governance library for Databricks** providing selective PII masking, scope enforcement, prompt/injection protection, harmful-content detection, conversation-aware policies, evaluation, and Model Serving deployment.
+
 A Databricks-native guardrail system providing **selective PII masking**,
 **scope enforcement** (blocks off-topic / out-of-context questions, with
 conversation-history awareness so terse follow-ups aren't false-positived),
